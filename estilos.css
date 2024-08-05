@@ -94,8 +94,7 @@
 .responsive-iframe{
   align-content: center;
   position: relative;
-  width: 420px;
-  height: 300px;
+  padding-top: 56.25;
 }
 
   .zoom-in-out-box {
