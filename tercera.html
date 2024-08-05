@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Actividad 1</title>
+</head>
+<body>
+    <section>
+        <div class="let">
+            <h1><strong>CEVV</strong></h1>
+            <small>Centro Educativo Valles Virtual</small>
+            <div class="logo zoom-in-out-box">
+                <img src="Docto.png" width="150px" height="150px"/>
+                </div>
+    </section>
+    <section>
+        <div class="leta">
+            <p>La modelación también es parte del aprendizaje. En este sentido, pretendemos apoyarnos sobre sus conocimientos previos para conseguir el o los objetivos que nos planteamos. Estos conocimientos previos del alumno no deben incidir en que el recurso se utilice menos veces, sino que se debe aprovechar y saber conducir ese conocimiento previo para conseguir los objetivos que nos marquemos..</p> 
+        </div>
+    </section>
+    <section>
+        <div class="leta">
+            <h1>Actividad 3</h1>
+            <p>Observa el siguiente tutorial y a la par realizar la actividad para enseguida completarla.</p>
+        </div>
+    </section>
+    <section style="text-align: center;">
+        <iframe src="https://drive.google.com/file/d/1xj-t_78bIYe2UwElOupBZ30x-M8MJJsf/preview" width="540" height="380" allow="autoplay"></iframe>
+      </section>
+      <section>
+        <div class="let">
+             <small>Da Click en el botón para saber como guardar un archivo de <b>Geogebra</b></small>
+        <a
+      href="https://drive.google.com/uc?id=1YUv1c8He6f7g5Ib7es1Vs0SFzKP4Wp49&export=download"
+      class="btn btn-primary">
+      <b>PDF Guardar Geogebra</b></a>
+    </div>
+      </section>
+      <section>
+        <div class="leta">
+            <p>Termina de configurar los botones hasta el decágono y cambia el diseño de tu proyecto cambiando los colores de fondo y los colores de los polígono, guarda el documento y envialo como parte de la actividad.</p>
+        </div>
+        <div class="let">
+            <p style="color: red;"><b>Para subir el documento, hacer click abajo...</b></p>
+            <a href="https://script.google.com/macros/s/AKfycbyinrAYKWjllKXz9nB4UbNOi2Mcwx9UCOqbJ49oLk4f_AOdfa5mkKWlIXJNoXfyRazsRA/exec"
+                class="btn btn-primary"
+                style="background-color: #ff0000; border-color: #000000;">
+                <b>Subir Documento</b></a>
+        </div>
+    </section>
+    
+    <section>
+        <div class="botones">
+            <a href="segunda.html" class="anterior">Anterior</a>
+            <a href="cuarta.html" class="siguiente">Siguiente</a>
+          </div>
+    </section>
+    <footer class="footer let">
+        <script>
+            var f = new Date();
+            document.write("Fecha actual:");
+            document.write("<br>");
+            document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+        </script>
+        <script>
+            function startTime(){
+            today=new Date();
+            h=today.getHours();
+            m=today.getMinutes();
+            s=today.getSeconds();
+            m=checkTime(m);
+            s=checkTime(s);
+            document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+            t=setTimeout('startTime()',500);}
+            function checkTime(i)
+            {if (i<10) {i="0" + i;}return i;}
+            window.onload=function(){startTime();}
+            </script>
+            <div id="reloj" style="font-size:22px;"></div></script>  
+    </footer>
+        
+        
+</body>
+</html>
